@@ -1,3 +1,30 @@
 .win-container {
+   display: grid;
+   height: 100vh;
+   grid-template-columns: repeat(15 , 100px) ;
+   grid-template-rows: repeat(15 , 100px);
+   gap: 10px;
+   background-color: aquamarine;
+}
+
+
+.basic1 {
+    grid-column: 2 / 4;
+    grid-row: 5 / 7 ;
+    background-color: blue;
+    
+}
+.basicText {
+    grid-column: 1 / 3;
+    grid-row: 1;
+
 
 }
+
+
+.text {
+    padding-left: 80px;
+    font-size: 50px;
+
+}
+
