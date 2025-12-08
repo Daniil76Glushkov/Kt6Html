@@ -1,0 +1,53 @@
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 200px 1fr 150px;
+  grid-template-rows: 70px 1fr 60px;
+  gap: 6px;
+  background-color: aqua;
+  grid-auto-flow: row dense;
+  grid-template-areas:
+    "left top top"
+    "left center right"
+    "left bottom right";
+}
+.left {
+  grid-area: left;
+}
+.top {
+  grid-area: top;
+}
+.right {
+  grid-area: right;
+}
+.center {
+  grid-area: center;
+}
+.bottom {
+  grid-area: bottom;
+}
+
+.elem {
+  background-color: green;
+}
+
+.Navigation {
+  font-size: 16px;
+  padding: 10px;
+}
+.Shapka {
+  font-size: 16px;
+  padding: 10px;
+}
+.Statia {
+  font-size: 16px;
+  padding: 7px;
+}
+.Podval {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.Pravo {
+  font-size: 16px;
+  margin-left: 10px;
+}
