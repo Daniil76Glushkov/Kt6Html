@@ -40,35 +40,35 @@
 .basic6, .basic7, .basic10, .basic11,
 .basic14, .basic15, .basic17, .basic18,
 .basic19, .basic20 {
-    grid-column: span 1;
-    grid-row: span 1;
+    grid-column: span ;
+    grid-row: span ;
 }
 .basic5, .basic8, .basic12 {
     grid-column: span 2;
-    grid-row: span 1;
+    grid-row: span ;
 }
 .basic13 {
     grid-column: span 2;
-    grid-row: span 1;
+    grid-row: span ;
 }
 .basic16 {
     grid-column: span 3;
-    grid-row: span 1;
+    grid-row: span ;
 }
 .basicAva {
-    grid-column: span 1;
-    grid-row: span 1;
+    grid-column: span ;
+    grid-row: span ;
     background-color: gray;
 }
 
 .basicText {
     grid-column: span 2;
-    grid-row: span 1;
+    grid-row: span ;
 }
 
 .basicText2 {
-    grid-column: span 1;
-    grid-row: span 1;
+    grid-column: span ;
+    grid-row: span ;
 }
 .basic1, .basic2, .basic3, .basic4, .basic13 { background-color: red; }
 .basic5, .basic8, .basic9, .basic12 { background-color: aqua; }
